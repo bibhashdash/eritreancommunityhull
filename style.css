@@ -157,7 +157,7 @@ h2 {
     letter-spacing: 3px;
 }
 
-@media all and (min-width: 480px) and (max-width: 768px) {
+@media all and (max-width: 768px) {
     .navbar {
         position: fixed;
         left: 0;
