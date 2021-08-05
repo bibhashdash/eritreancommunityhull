@@ -287,7 +287,7 @@ h2 {
     }
     .hero {
         /* border: 1px solid black; */
-        width: 99vw;
+        width: 95vw;
         height: 90vh;
         justify-content: space-around;
         margin-bottom: 2rem;
@@ -310,7 +310,7 @@ h2 {
         font-size: 1.5rem;
     }
     .hero-heading {
-        font-size: 4.5rem;
+        font-size: 4rem;
         overflow-wrap: break-word;
     }
     /* .btn-default {
