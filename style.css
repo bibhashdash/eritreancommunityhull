@@ -157,6 +157,30 @@ h2 {
     letter-spacing: 3px;
 }
 
+.banner {
+    background-color: #ffffff;
+    width: 99vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-banner-pic {
+    width: 200px;
+    height: 200px;
+    margin-left: 3rem;
+    cursor: pointer;
+}
+
+.social-banner-heading {
+    color: black;
+    font-size: 5rem;
+    text-shadow: none;
+    font-weight: 900;
+}
+
 @media all and (max-width: 768px) {
     .navbar {
         position: fixed;
@@ -213,7 +237,7 @@ h2 {
     .hero {
         /* border: 1px solid black; */
         width: 99vw;
-        height: 50vh;
+        height: 80vh;
         justify-content: space-around;
         margin-bottom: 2rem;
     }
@@ -271,5 +295,26 @@ h2 {
     .text-quick-info {
         font-size: 1.5rem;
         letter-spacing: 2px;
+    }
+    .banner {
+        background-color: #ffffff;
+        width: 99vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .social-banner-pic {
+        width: 200px;
+        height: 200px;
+        margin-left: 3rem;
+        cursor: pointer;
+    }
+    .social-banner-heading {
+        color: black;
+        font-size: 5rem;
+        text-shadow: none;
+        font-weight: 900;
     }
 }
