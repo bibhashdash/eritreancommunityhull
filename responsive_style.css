@@ -67,7 +67,7 @@
     }
     .hero {
         /* border: 1px solid black; */
-        width: 100vw;
+        width: 100gvw;
         height: 90vh;
         justify-content: space-around;
         margin-bottom: 2rem;
