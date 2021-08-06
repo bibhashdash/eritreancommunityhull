@@ -132,10 +132,10 @@ h2 {
 }
 
 .quick-info {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     height: auto;
     padding: 2rem;
-    width: 80vw;
+    width: 90vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -167,7 +167,7 @@ h2 {
 
 .text-quick-info {
     font-size: 1.5rem;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     margin-bottom: 1rem;
 }
 
@@ -352,6 +352,41 @@ h2 {
         font-size: 3rem;
         text-align: center;
     }
+    .quick-info {
+        /* border: 1px solid white; */
+        height: auto;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0;
+    }
+    .pic-quick-info {
+        /* border: 1px solid white; */
+        width: 200px;
+        height: 150px;
+    }
+    .quick-info-text-content {
+        /* border: 1px solid white; */
+        width: 90%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* margin-left: 2rem; */
+    }
+    .quick-info-heading {
+        text-shadow: none;
+        font-weight: 900;
+        text-decoration: underline;
+        margin-bottom: 1rem;
+    }
+    .text-quick-info {
+        font-size: 1rem;
+        letter-spacing: 2px;
+        margin-bottom: 1rem;
+    }
     /* .btn-default {
         width: 200px;
         height: 40px;
@@ -448,6 +483,41 @@ h2 {
         /* border: 1px solid white; */
         font-size: 3rem;
         text-align: center;
+    }
+    .quick-info {
+        /* border: 1px solid white; */
+        height: auto;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0;
+    }
+    .pic-quick-info {
+        /* border: 1px solid white; */
+        width: 200px;
+        height: 150px;
+    }
+    .quick-info-text-content {
+        /* border: 1px solid white; */
+        width: 90%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* margin-left: 2rem; */
+    }
+    .quick-info-heading {
+        text-shadow: none;
+        font-weight: 900;
+        text-decoration: underline;
+        margin-bottom: 1rem;
+    }
+    .text-quick-info {
+        font-size: 1rem;
+        letter-spacing: 2px;
+        margin-bottom: 1rem;
     }
 }
 
@@ -549,9 +619,44 @@ h2 {
         font-size: 3.5rem;
         text-align: center;
     }
+    .quick-info {
+        /* border: 1px solid white; */
+        height: auto;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0;
+    }
+    .pic-quick-info {
+        /* border: 1px solid white; */
+        width: 200px;
+        height: 150px;
+    }
+    .quick-info-text-content {
+        /* border: 1px solid white; */
+        width: 90%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* margin-left: 2rem; */
+    }
+    .quick-info-heading {
+        text-shadow: none;
+        font-weight: 900;
+        text-decoration: underline;
+        margin-bottom: 1rem;
+    }
+    .text-quick-info {
+        font-size: 1rem;
+        letter-spacing: 2px;
+        margin-bottom: 1rem;
+    }
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 769px) and (max-width: 1024px) {
     .hidden {
         display: none;
     }
@@ -631,5 +736,40 @@ h2 {
         /* border: 1px solid white; */
         font-size: 4rem;
         text-align: center;
+    }
+    .quick-info {
+        /* border: 1px solid white; */
+        height: auto;
+        padding: 0;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .pic-quick-info {
+        /* border: 1px solid white; */
+        width: 200px;
+        height: 150px;
+    }
+    .quick-info-text-content {
+        /* border: 1px solid white; */
+        width: 60%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 2rem;
+    }
+    .quick-info-heading {
+        text-shadow: none;
+        font-weight: 900;
+        text-decoration: underline;
+        margin-bottom: 1rem;
+    }
+    .text-quick-info {
+        font-size: 1rem;
+        letter-spacing: 2px;
+        margin-bottom: 1rem;
     }
 }
