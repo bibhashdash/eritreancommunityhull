@@ -9,7 +9,7 @@ body {
     padding: 0;
     font-family: "Raleway", sans-serif;
     /* background-color: #4c3549; */
-    background-color: hsl(189, 65%, 16%);
+    background-color: hsl(214, 25%, 33%);
     color: #ffffff;
 }
 
@@ -35,10 +35,10 @@ h2 {
 }
 
 .navbar {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     position: fixed;
     width: 100vw;
-    background-color: #0e3b43;
+    background-color: #0e1f22;
     height: 6rem;
     /* padding: 0.5rem; */
     display: flex;
@@ -250,6 +250,73 @@ h2 {
     font-size: 2rem;
 }
 
+.black-h2 {
+    color: #000000;
+}
+
+.contactus {
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 40vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactus-container {
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.name-div {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.name-input {
+    width: 40%;
+    height: 70%;
+}
+
+.message-div {
+    /* border: 1px solid black; */
+    color: #000000;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-input {
+    height: 90%;
+    width: 80%;
+}
+
 @media all and (min-width: 320px) and (max-width: 480px) {
     body {
         display: flex;
@@ -259,18 +326,15 @@ h2 {
         margin: 0px;
         padding: 0px;
         font-family: "Raleway", sans-serif;
-        background-color: hsl(189, 65%, 16%);
         color: #ffffff;
     }
     .navbar {
-        border: 1px solid white;
         position: fixed;
         left: 0;
         right: 0;
         display: block;
         width: 100vw;
         height: auto;
-        background-color: #0e3b43;
         padding: 0.5rem;
     }
     .logo-and-burger {
@@ -476,14 +540,12 @@ h2 {
 
 @media all and (min-width: 481px) and (max-width: 640px) {
     .navbar {
-        border: 1px solid white;
         position: fixed;
         left: 0;
         right: 0;
         display: block;
         width: 100vw;
         height: auto;
-        background-color: #0e3b43;
         padding: 0.5rem;
     }
     .logo-and-burger {
@@ -677,7 +739,6 @@ h2 {
         display: block;
         width: 100vw;
         height: auto;
-        background-color: #0e3b43;
         padding: 0.5rem;
     }
     .logo-and-burger {
@@ -855,7 +916,6 @@ h2 {
         position: fixed;
         border: 1px solid white;
         width: 100vw;
-        background-color: #0e3b43;
         height: 6rem;
         /* padding: 0.5rem; */
         display: flex;
