@@ -1,12 +1,26 @@
-@media all and (max-width: 768px) {
+@media all and (min-width: 320px) and (max-width: 480px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        font-family: "Raleway", sans-serif;
+        /* background-color: #4c3549; */
+        background-color: hsl(189, 65%, 16%);
+        color: #ffffff;
+    }
     .navbar {
+        border: 1px solid white;
         position: fixed;
         left: 0;
         right: 0;
         display: block;
         width: 100vw;
+        height: auto;
         background-color: #0e3b43;
-        /* padding: 0.5rem; */
+        padding: 0.5rem;
     }
     .logo-and-burger {
         display: flex;
@@ -53,7 +67,7 @@
     }
     .hero {
         /* border: 1px solid black; */
-        width: 99vw;
+        width: 100vw;
         height: 90vh;
         justify-content: space-around;
         margin-bottom: 2rem;
@@ -70,16 +84,18 @@
         /* justify-content: space-evenly; */
     }
     h1 {
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
     h2 {
         font-size: 1.5rem;
     }
     .hero-heading {
+        margin-top: 2rem;
+        width: 99%;
         height: 80%;
         /* border: 1px solid white; */
-        font-size: 4rem;
-        overflow-wrap: break-word;
+        font-size: 3rem;
+        text-align: center;
     }
     /* .btn-default {
         width: 200px;
