@@ -33,6 +33,17 @@
         display: block;
         cursor: pointer;
     }
+    .logo {
+        /* border: 1px solid white; */
+        width: 80px;
+        height: 100%;
+    }
+    .logo-file {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        /* border: 1px solid #ffffff; */
+    }
     .navlinks {
         /* border: 1px solid black; */
         display: block;
@@ -215,6 +226,17 @@
         /* border: 1px solid black; */
         width: 100%;
     }
+    .logo {
+        /* border: 1px solid white; */
+        width: 80px;
+        height: 100%;
+    }
+    .logo-file {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        /* border: 1px solid #ffffff; */
+    }
     .hamburger {
         display: block;
         cursor: pointer;
@@ -368,7 +390,7 @@
 }
 
 .quick-info {
-    /* border: 1px solid white; */
+    border: 1px solid white;
     height: auto;
     width: 90vw;
     display: flex;
