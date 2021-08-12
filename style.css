@@ -301,7 +301,7 @@ h2 {
 }
 
 .footer-navlinks {
-    height: 80%;
+    height: 90%;
     /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
