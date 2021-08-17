@@ -1,5 +1,10 @@
 /* border: 1px solid black; */
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 body {
     display: flex;
     flex-direction: column;
