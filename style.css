@@ -275,6 +275,23 @@ h2 {
     color: #000000;
 }
 
+.quick-info-banner {
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-info-banner-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer {
     background-color: #0e1f22;
     width: 100vw;
@@ -462,7 +479,8 @@ h2 {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        padding: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
     .pic-quick-info {
         /* border: 1px solid white; */
@@ -558,6 +576,21 @@ h2 {
     .card-heading {
         font-size: 2rem;
         text-align: center;
+    }
+    .quick-info-banner {
+        height: auto;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .quick-info-banner-container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .footer {
         background-color: #0e1f22;
@@ -727,7 +760,8 @@ h2 {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        padding: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
     .pic-quick-info {
         /* border: 1px solid white; */
@@ -996,7 +1030,8 @@ h2 {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        padding: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
     .pic-quick-info {
         /* border: 1px solid white; */
@@ -1223,6 +1258,8 @@ h2 {
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
     .pic-quick-info {
         /* border: 1px solid white; */
