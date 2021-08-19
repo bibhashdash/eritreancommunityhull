@@ -5,6 +5,15 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -12,24 +21,15 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Raleway", sans-serif;
+    font-family: "Open Sans", sans-serif;
     /* background-color: #4c3549; */
-    background-color: hsl(214, 25%, 33%);
+    background-color: #868686;
     color: #ffffff;
-}
-
-h1 {
-    font-size: 5rem;
-    font-weight: bolder;
-}
-
-h2 {
-    font-size: 2rem;
-    font-weight: lighter;
 }
 
 h1,
 h2 {
+    font-family: "Montserrat", sans-serif;
     letter-spacing: 2px;
     margin: 0;
     text-shadow: 2px 2px #000000;
@@ -39,11 +39,15 @@ h2 {
     display: none;
 }
 
+.navbar,
+.footer {
+    background-color: #003049;
+}
+
 .navbar {
     /* border: 1px solid white; */
     position: fixed;
     width: 100vw;
-    background-color: #0e1f22;
     height: 6rem;
     /* padding: 0.5rem; */
     display: flex;
@@ -132,8 +136,7 @@ h2 {
     font-size: 1.4rem;
     font-weight: bolder;
     letter-spacing: 3px;
-    font-family: "Raleway", sans-serif;
-    background-color: #fec726;
+    background-color: #ffbb00;
     cursor: pointer;
 }
 
@@ -293,7 +296,6 @@ h2 {
 }
 
 .footer {
-    background-color: #0e1f22;
     width: 100vw;
     height: 15rem;
     display: flex;
@@ -373,7 +375,6 @@ h2 {
         box-sizing: border-box;
         margin: 0px;
         padding: 0px;
-        font-family: "Raleway", sans-serif;
         color: #ffffff;
     }
     .navbar {
@@ -593,7 +594,6 @@ h2 {
         align-items: center;
     }
     .footer {
-        background-color: #0e1f22;
         width: 100vw;
         height: 90vh;
         display: flex;
@@ -657,14 +657,6 @@ h2 {
         color: rgb(255, 196, 0);
         text-decoration: underline;
     }
-    /* .btn-default {
-        width: 200px;
-        height: 40px;
-        border-radius: 10px;
-        font-size: 1rem;
-        font-weight: bolder;
-        letter-spacing: 3px;
-    } */
 }
 
 @media all and (min-width: 481px) and (max-width: 640px) {
@@ -859,7 +851,6 @@ h2 {
         text-align: center;
     }
     .footer {
-        background-color: #0e1f22;
         width: 100vw;
         height: 90vh;
         display: flex;
@@ -1103,7 +1094,6 @@ h2 {
         text-align: center;
     }
     .footer {
-        background-color: #0e1f22;
         width: 100vw;
         height: auto;
         display: flex;
@@ -1331,7 +1321,6 @@ h2 {
         text-align: center;
     }
     .footer {
-        background-color: #0e1f22;
         width: 100vw;
         height: auto;
         display: flex;
