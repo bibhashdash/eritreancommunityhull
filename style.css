@@ -1000,7 +1000,7 @@ h2 {
 
 @media all and (min-width: 1024px) {
     .hero {
-        height: 80vh;
+        height: 90vh;
     }
     .headings {
         height: 60%;
