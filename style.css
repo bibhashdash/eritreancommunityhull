@@ -483,6 +483,9 @@ h2 {
     .hero-subdeck {
         font-size: 1.2rem;
     }
+    .btn-default {
+        width: 90%;
+    }
     .quick-info {
         flex-direction: column;
     }
@@ -651,6 +654,9 @@ h2 {
     }
     .hero-subdeck {
         font-size: 1.2rem;
+    }
+    .btn-default {
+        width: 90%;
     }
     .quick-info {
         flex-direction: column;
