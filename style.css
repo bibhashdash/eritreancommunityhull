@@ -110,6 +110,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0.5rem;
 }
 
 .headings {
@@ -142,6 +143,7 @@ h2 {
     letter-spacing: 3px;
     background-color: #ffbb00;
     cursor: pointer;
+    box-shadow: 12px 9px 31px 0px #000000a8;
 }
 
 .quick-info {
@@ -218,6 +220,11 @@ h2 {
     width: 100px;
     height: 100px;
     /* margin-left: 3rem; */
+    cursor: pointer;
+}
+
+.dost-banner-pic {
+    width: 150px;
     cursor: pointer;
 }
 
@@ -482,7 +489,7 @@ h2 {
         justify-content: space-evenly;
     }
     .social-banner-heading {
-        font-size: 2rem;
+        font-size: 1rem;
         margin-right: 0;
     }
     .cards-section {
@@ -648,7 +655,7 @@ h2 {
         justify-content: space-evenly;
     }
     .social-banner-heading {
-        font-size: 4rem;
+        font-size: 2rem;
         margin-right: 0;
     }
     .cards-section {
@@ -805,6 +812,10 @@ h2 {
     .text-quick-info {
         font-size: 1rem;
     }
+    .social-banner-heading {
+        font-size: 3rem;
+        margin-right: 1rem;
+    }
     .cards-section {
         width: 100vw;
     }
@@ -935,6 +946,10 @@ h2 {
     .text-quick-info {
         font-size: 1rem;
     }
+    .social-banner-heading {
+        font-size: 3rem;
+        margin-right: 1rem;
+    }
     .cards-section {
         width: 100vw;
     }
@@ -1004,6 +1019,10 @@ h2 {
     }
     .headings {
         height: 60%;
+    }
+    .social-banner-heading {
+        font-size: 3rem;
+        margin-right: 1rem;
     }
     .cards-section {
         width: 100vw;
