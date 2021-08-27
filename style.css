@@ -39,8 +39,30 @@ h2 {
     text-shadow: 2px 2px #000000;
 }
 
+li {
+    list-style: none;
+}
+
 .hidden {
     display: none;
+}
+
+.btn-default {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    background-color: #ffbb00;
+    cursor: pointer;
+    box-shadow: 12px 9px 31px 0px #000000a8;
+}
+
+.btn-default:hover {
+    background-color: #003049;
+    color: #ffffff;
 }
 
 .navbar,
@@ -136,19 +158,6 @@ h2 {
     /* border: 1px solid white; */
     font-size: 5rem;
     text-align: center;
-}
-
-.btn-default {
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
-    font-weight: bolder;
-    letter-spacing: 3px;
-    background-color: #ffbb00;
-    cursor: pointer;
-    box-shadow: 12px 9px 31px 0px #000000a8;
 }
 
 .quick-info {
@@ -318,6 +327,51 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.contact-form {
+    /* border: 1px solid white; */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    /* border: 1px solid white; */
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.form-list-item {
+    /* border: 1px solid white; */
+    width: 90%;
+}
+
+input {
+    height: 2rem;
+}
+
+input,
+textarea {
+    width: 90%;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-family: "Open Sans", sans-serif;
+    box-shadow: 12px 9px 31px 0px #000000a8;
 }
 
 .footer {
@@ -539,6 +593,16 @@ h2 {
     .quick-info-banner-container {
         width: 90%;
     }
+    .contact-form {
+        width: 100%;
+    }
+    form {
+        /* border: 1px solid white; */
+        width: 100%;
+    }
+    ul {
+        width: 100%;
+    }
     .footer {
         height: 90vh;
         justify-content: flex-start;
@@ -710,6 +774,12 @@ h2 {
     .quick-info-banner-container {
         width: 80%;
     }
+    .contact-form {
+        width: 100%;
+    }
+    form {
+        width: 100%;
+    }
     .footer {
         height: 90vh;
         justify-content: flex-start;
@@ -865,6 +935,12 @@ h2 {
     }
     .quick-info-banner-container {
         width: 80%;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    form {
+        width: 100%;
     }
     .footer {
         height: auto;
