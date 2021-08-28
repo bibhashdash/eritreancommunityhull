@@ -401,6 +401,56 @@ textarea {
     cursor: pointer;
 }
 
+.modal-background-closed {
+    display: none;
+}
+
+.modal-background-open {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.466);
+    backdrop-filter: blur(7px);
+}
+
+.modal-closed {
+    display: none;
+}
+
+.modal-open {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99999;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.btn-modal-close {
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 0.5rem;
+    color: black;
+    font-size: 2rem;
+    transform: translateX(450px);
+    cursor: pointer;
+}
+
+.btn-modal-close:hover {
+    background-color: black;
+    color: cornsilk;
+}
+
 .footer {
     width: 100vw;
     height: 15rem;
@@ -629,6 +679,29 @@ textarea {
     }
     ul {
         width: 100%;
+    }
+    .modal-background-open {
+        height: 6000px;
+    }
+    .modal-open {
+        width: 90%;
+        height: auto;
+        position: absolute;
+        z-index: 99999;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-start;
+        justify-content: space-evenly; */
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    .btn-modal-close {
+        border: 2px solid black;
+        border-radius: 50%;
+        padding: 5px;
+        color: black;
+        font-size: 1rem;
     }
     .footer {
         height: 90vh;
