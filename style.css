@@ -59,6 +59,10 @@ li {
     box-shadow: 12px 9px 31px 0px #000000a8;
 }
 
+.btn-default:hover {
+    background-color: #ff2020;
+}
+
 .navbar,
 .footer {
     background-color: #0c2233;
