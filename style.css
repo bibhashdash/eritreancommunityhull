@@ -63,6 +63,29 @@ li {
     background-color: #ff2020;
 }
 
+.btn-hero {
+    opacity: 0;
+    bottom: 10%;
+    position: relative;
+    transition: opacity 1s ease-in-out;
+    animation: moveUp 1s linear;
+    transition-delay: 2s;
+    animation-delay: 2s;
+}
+
+.btn-hero-show {
+    opacity: 1;
+}
+
+@keyframes moveUp {
+    from {
+        bottom: 5%;
+    }
+    to {
+        bottom: 10%;
+    }
+}
+
 .navbar,
 .footer {
     background-color: #0c2233;
