@@ -579,10 +579,10 @@ textarea {
         height: 55%;
         /* border: 1px solid white; */
         color: #ffffff;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
     .hero-heading {
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
         width: 99%;
         height: 80%;
         /* border: 1px solid white; */
