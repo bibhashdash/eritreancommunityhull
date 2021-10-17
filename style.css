@@ -481,7 +481,6 @@ textarea {
     /* border: 1px solid white; */
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     width: 100%;
     height: 90%;
 }
@@ -681,6 +680,7 @@ textarea {
         justify-content: start;
     }
     .footer-navlink {
+        font-size: smaller;
         width: 100%;
         height: auto;
         opacity: 1;
@@ -698,6 +698,10 @@ textarea {
         flex-direction: column;
         justify-content: flex-start;
         width: 100%;
+        font-size: smaller;
+    }
+    .byelines {
+        font-size: smaller;
     }
 }
 
