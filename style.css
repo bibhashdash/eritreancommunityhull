@@ -71,6 +71,7 @@ li {
     animation: moveUp 1s linear;
     transition-delay: 2s;
     animation-delay: 2s;
+    margin-top: 1rem;
 }
 
 .btn-hero-show {
@@ -1192,7 +1193,7 @@ textarea {
     }
 }
 
-@media screen and (max-width: 768px) and (orientation: landscape) {
+@media screen and (max-width: 1024px) and (orientation: landscape) {
     .hero {
         /* border: 1px solid black; */
         width: 100vw;
@@ -1200,8 +1201,8 @@ textarea {
         justify-content: space-around;
     }
     .headings {
-        margin-top: 5%;
-        height: 60%;
+        margin-top: 15%;
+        height: 40%;
         width: 99%;
         justify-content: space-evenly;
         /* margin-bottom: 1rem; */
