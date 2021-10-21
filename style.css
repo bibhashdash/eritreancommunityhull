@@ -1200,12 +1200,13 @@ textarea {
         justify-content: space-around;
     }
     .headings {
-        height: 80%;
+        height: 60%;
         width: 99%;
         justify-content: space-evenly;
+        margin-bottom: 1rem;
     }
     .hero-heading {
         height: 80%;
-        font-size: 1rem;
+        font-size: 2rem;
     }
 }
