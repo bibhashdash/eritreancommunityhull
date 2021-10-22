@@ -1197,7 +1197,7 @@ textarea {
     .hero {
         /* border: 1px solid black; */
         width: 100vw;
-        height: 90vh;
+        height: 120vh;
         justify-content: space-around;
     }
     .headings {
