@@ -72,8 +72,8 @@ p {
 .hero {
   margin-top: 4rem;
   background-color: #fff;
-  height: 60vh;
-  /* padding: 20px 10%; */
+  height: auto;
+  padding: 5% 10%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -91,7 +91,8 @@ p {
   background-size: cover;
 }
 .secondary-hero {
-  height: 40vh;
+  height: auto;
+  padding: 10% 0;
 }
 .hero-content {
   padding: 0 10%;
@@ -226,12 +227,6 @@ textarea {
   color: rgb(177, 177, 177);
 }
 @media all and (min-width: 576px) {
-  .hero {
-    height: 50vh;
-  }
-  .secondary-hero {
-    height: 40vh;
-  }
   .hero-content {
     padding: 0 8%;
   }
@@ -243,23 +238,11 @@ textarea {
   }
 }
 @media all and (min-width: 768px) {
-  .hero {
-    height: 50vh;
-  }
-  .secondary-hero {
-    height: 40vh;
-  }
   .hero-heading {
     font-size: 3.5rem;
   }
 }
 @media all and (min-width: 992px) {
-  .hero {
-    height: 60vh;
-  }
-  .secondary-hero {
-    height: 40vh;
-  }
   .hero-content {
     padding: 0 12%;
   }
@@ -274,12 +257,6 @@ textarea {
   }
 }
 @media all and (min-width: 1200px) {
-  .hero {
-    height: 60vh;
-  }
-  .secondary-hero {
-    height: 40vh;
-  }
   .hero-content {
     padding: 0 16%;
   }
@@ -294,12 +271,7 @@ textarea {
   .navbar {
     padding: 10px 15%;
   }
-  .hero {
-    height: 70vh;
-  }
-  .secondary-hero {
-    height: 40vh;
-  }
+
   .hero-content {
     padding: 0 15%;
   }
