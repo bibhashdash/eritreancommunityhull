@@ -178,6 +178,9 @@ p {
 }
 .contact-form {
   padding: 5% 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 form {
   width: 100%;
@@ -255,6 +258,9 @@ textarea {
   .cards-section {
     padding: 20px 15%;
   }
+  form {
+    width: 50%;
+  }
 }
 @media all and (min-width: 1200px) {
   .hero-content {
@@ -265,6 +271,9 @@ textarea {
   }
   .cards-section {
     padding: 20px 20%;
+  }
+  form {
+    width: 50%;
   }
 }
 @media all and (min-width: 1400px) {
@@ -280,5 +289,8 @@ textarea {
   }
   .quick-info-content {
     padding: 0 15%;
+  }
+  form {
+    width: 50%;
   }
 }
