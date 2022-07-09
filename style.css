@@ -2,7 +2,9 @@ html,
 body {
   box-sizing: border-box;
 }
-
+.hidden {
+  display: none;
+}
 h1,
 h2,
 h3,
